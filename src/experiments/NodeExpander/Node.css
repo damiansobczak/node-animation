@@ -1,0 +1,12 @@
+.node {
+	-webkit-mask-image: linear-gradient(90deg, #737373 40%, transparent);
+	mask-image: linear-gradient(90deg, #737373 40%, transparent);
+	background-color: #737373;
+	background-image: linear-gradient(115deg, #737373, #737373 30%, rgb(237, 237, 237) 50%, #737373, 100%, #737373);
+	background-repeat: no-repeat;
+	background-size: 100% 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}

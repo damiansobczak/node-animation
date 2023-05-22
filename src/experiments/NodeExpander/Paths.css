@@ -1,0 +1,32 @@
+.gridLine {
+	--background: #ffffff;
+	--color: rgba(0, 0, 0, 0.5);
+	--height: 1px;
+	--width: 5px;
+	--fade-stop: 70%;
+	/* Bleed in or out from the container */
+	--offset: -100px;
+
+	width: 100%;
+	height: var(--height);
+
+	background: linear-gradient(to right, var(--color), var(--color) 50%, transparent 0, transparent);
+	background-size: var(--width) var(--height);
+
+	/* Fade out the edges */
+	mask-composite: exclude;
+	-webkit-mask: linear-gradient(to left, var(--background) var(--fade-stop), transparent), linear-gradient(to right, var(--background) var(--fade-stop), transparent), linear-gradient(black, black);
+}
+
+.mask {
+	--background: #ffffff;
+	--color: rgba(0, 0, 0, 0.5);
+	--height: 1px;
+	--width: 5px;
+	--fade-stop: 70%;
+	mask-composite: exclude;
+	-webkit-mask: linear-gradient(to left, var(--background) var(--fade-stop), transparent), linear-gradient(to right, var(--background) var(--fade-stop), transparent), linear-gradient(black, black);
+}
+
+.top-line-animate {
+}
