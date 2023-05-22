@@ -19,7 +19,7 @@ const Paths = () => {
 						transition={{
 							duration: 2,
 							repeat: Infinity,
-							delay: 2,
+							delay: 0.8,
 						}}
 						id="pulse-2"
 						gradientUnits="userSpaceOnUse"
@@ -68,7 +68,7 @@ const Paths = () => {
 						transition={{
 							duration: 2,
 							repeat: Infinity,
-							delay: 2,
+							delay: 0.8,
 						}}
 						id="pulse"
 						gradientUnits="userSpaceOnUse"
